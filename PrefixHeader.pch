@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  ycx_test_one
+//
+//  Created by YCX on 2020/4/14.
+//  Copyright © 2020 YCX. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "ReactiveObjC.h"
+#import "AFNetworking.h"
+#import "ReactiveObjC.h"
+#import <UIImageView+WebCache.h>
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_FRAME [UIScreen mainScreen].bounds
+#define IMAGE_HEIGHT  ([UIScreen mainScreen].bounds.size.width-60)/3*246.0/330.0
+#define IMAGE_WIDE  ([UIScreen mainScreen].bounds.size.width-60)/3
+#endif /* PrefixHeader_pch */
